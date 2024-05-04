@@ -62,7 +62,7 @@ const [steps, setSteps] = useState(initialSteps);
       case "down":
       if (index <= 5) {
         setIndex(index + 3);
-        setIndex(steps + 1);
+        setSteps(steps + 1);
       } else setMessage("You can't go down");
       break;
       case "left":
