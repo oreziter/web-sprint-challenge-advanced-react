@@ -451,3 +451,4 @@ test('AppFunctional is a functional component', () => {
     })
   })
 })
+
